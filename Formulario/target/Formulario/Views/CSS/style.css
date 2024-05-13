@@ -1,0 +1,72 @@
+body {
+    background-color: #ccc; /* Fondo gris */
+    font-family: Arial, sans-serif; /* Fuente legible */
+}
+
+.container {
+    background-color: #fff; /* Fondo blanco para el contenedor */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 20px; /* Espaciado interno */
+    margin-top: 20px; /* Margen superior */
+}
+
+.titulo {
+    background-color: #000; /* Fondo negro */
+    color: #fff; /* Letras blancas */
+    padding: 10px; /* Espaciado interno */
+    margin-top: 0; /* Elimina el margen superior */
+}
+
+.segundo-titulo {
+    background-color: #4CAF50; /* Fondo verde */
+    color: #fff; /* Letras blancas */
+    padding: 10px; /* Espaciado interno */
+}
+
+.formulario {
+    background-color: #fff; /* Fondo blanco */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 10px; /* Bordes redondeados */
+    margin-top: 20px; /* Margen superior */
+}
+
+label {
+    display: block;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50; /* Color de fondo verde */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049; /* Cambio de color al pasar el ratón */
+}
+
+/* Estilo para los botones de radio y etiquetas */
+input[type="radio"] + label {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+/* Estilo para los botones de radio dentro de un mismo grupo */
+input[type="radio"] {
+    vertical-align: middle;
+    margin-right: 5px;
+}
